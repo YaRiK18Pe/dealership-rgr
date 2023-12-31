@@ -1,0 +1,135 @@
+/*= ОБЩИЕСТИЛИ
+	--------------------------------------------------------*/
+	body {
+background: #efefef;
+font-family: 'Open Sans', sans-serif;
+color: #777;
+	}
+
+	a {
+color: #ff0000;
+font-weight: 400;
+	}
+	
+	span {
+font-weight: 300;
+color: #ff0000;
+	}
+
+	.mlogin {
+margin: 170px auto 0;
+	}
+
+	.mregister {
+margin: 80px auto 0;
+	}
+
+	.error {
+margin: 40px auto 0;
+	border: 1px solid #777;
+padding: 3px;
+	color: #fff;
+text-align: center;
+width: 650px;
+background: #ff0000;
+	}
+
+	.regtext {
+font-size: 13px;
+margin-top: 26px;
+color: #777;
+	}
+	
+	/*= КОНТЕЙНЕРЫ
+	--------------------------------------------------------*/
+	.container {
+	padding: 25px16px25px10px;
+	font-weight: 400;
+	overflow: hidden;
+	width: 350px;
+	height: auto;
+	background: #fff;
+	-webkit-box-shadow: 01px3pxrgba(0,0,0,.13);
+	-moz-box-shadow: 01px3pxrgba(0,0,0,.13);
+	box-shadow: 01px3pxrgba(0,0,0,.13);
+	}
+	
+	#welcome {
+	width: 500px;
+	padding: 30px;
+	background: #fff;
+	margin: 160px auto 0;
+	-webkit-box-shadow: 01px3pxrgba(0,0,0,.13);
+	-moz-box-shadow: 01px3pxrgba(0,0,0,.13);
+box-shadow: 01px3pxrgba(0,0,0,.13);
+	}
+	
+	.containerh1 {
+	color: #777;
+	text-align: center;
+	font-weight: 300;
+border: 1px dashed #777;
+margin-top: 13px;
+	}
+
+	.containerlabel {
+	color: #777;
+	font-size: 14px;
+	}
+
+	#login {
+width: 320px;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+
+	.containerform.input,.containerinput[type=text],.containerinput[type=password],.containerinput[type=e] {
+	background: #fbfbfb;
+	font-size: 24px;
+	line-height: 1;
+	width: 100%;
+	padding: 3px;
+margin: 06px5px0;
+outline: none;
+border: 1px solid #d9d9d9;
+	}
+	
+	.containerform.input:focus {
+	border: 1px solid #ff0000;
+-webkit-box-shadow: 003px0rgba(245,130,32,0.75);
+-moz-box-shadow: 003px0rgba(245,130,32,0.75);
+box-shadow: 003px0rgba(245,130,32,0.75);
+	}
+	
+	/*= КНОПКИ
+	--------------------------------------------------------*/
+	
+	.button{
+	border: solid 1px#ff0000;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, leftbottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a, #f47a20);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+color: #fff;
+	padding: 7px12px;
+	-webkit-border-radius:4px;
+moz-border-radius:4px;
+border-radius:4px;
+	float: right;
+	cursor: pointer;
+	}
+	
+	.button:hover{
+	background: #f47c20;
+background: -webkit-gradient(linear, left top, leftbottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11, #f06015);
+filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+	}
+	/*= ПОДВАЛ
+	--------------------------------------------------------*/
+	footer {
+color: #777;
+font-size: 12px;
+text-align: center;
+margin-top: 20px;
+	}
